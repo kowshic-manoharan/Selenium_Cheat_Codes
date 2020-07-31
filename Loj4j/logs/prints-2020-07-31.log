@@ -1,0 +1,8 @@
+21:47:01.922 [main] DEBUG packageA.Demo - Clicking on the button
+21:47:01.922 [main] INFO  packageA.Demo - Button is Clicked
+21:47:01.922 [main] ERROR packageA.Demo - Button is not clicked
+21:47:01.922 [main] FATAL packageA.Demo - Button is not enabled
+21:51:19.825 [main] DEBUG packageA.Demo - Clicking on the button
+21:51:19.825 [main] INFO  packageA.Demo - Button is Clicked
+21:51:19.825 [main] ERROR packageA.Demo - Button is not clicked
+21:51:19.825 [main] FATAL packageA.Demo - Button is not enabled
