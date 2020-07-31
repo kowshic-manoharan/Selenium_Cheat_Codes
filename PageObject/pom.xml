@@ -3,10 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TestAutomation</groupId>
-	<artifactId>TestNG</artifactId>
+	<artifactId>PageObject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MavenProject</name>
-	<url>http://maven.apache.org</url>
+	<packaging>jar</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -55,6 +54,7 @@
 			<version>6.14.3</version>
 			<scope>test</scope>
 		</dependency>
+
 
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
