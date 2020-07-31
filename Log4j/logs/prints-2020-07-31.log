@@ -1,8 +1,8 @@
-21:47:01.922 [main] DEBUG packageA.Demo - Clicking on the button
-21:47:01.922 [main] INFO  packageA.Demo - Button is Clicked
-21:47:01.922 [main] ERROR packageA.Demo - Button is not clicked
-21:47:01.922 [main] FATAL packageA.Demo - Button is not enabled
-21:51:19.825 [main] DEBUG packageA.Demo - Clicking on the button
-21:51:19.825 [main] INFO  packageA.Demo - Button is Clicked
-21:51:19.825 [main] ERROR packageA.Demo - Button is not clicked
-21:51:19.825 [main] FATAL packageA.Demo - Button is not enabled
+21:54:29.659 [main] ERROR packageB.Demo2 - Link is not clicked
+21:54:29.722 [main] FATAL packageB.Demo2 - Link is not enabled
+22:03:20.837 [main] DEBUG packageA.Demo - Setting chrome driver property
+22:03:28.786 [main] INFO  packageA.Demo - Window Maximized
+22:03:28.786 [main] DEBUG packageA.Demo - Now hitting Amazon server
+22:03:34.714 [main] INFO  packageA.Demo - Landed on amazon home page
+22:03:40.902 [main] DEBUG packageA.Demo - Getting the frames count
+22:03:40.966 [main] INFO  packageA.Demo - Frames count retreived
