@@ -1,5 +1,5 @@
 /**
- * 
+ * this code contains all the objects present in the create page
  */
 package objectRepository;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 /**
  * @author kowshic
- *
+ * @version Selenium 3.0
  */
 public class CreatePage {
 	

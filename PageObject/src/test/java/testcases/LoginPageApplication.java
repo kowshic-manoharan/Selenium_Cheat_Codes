@@ -1,5 +1,5 @@
 /**
- * 
+ * This code is used to learn how to deal with the page object modal
  */
 package testcases;
 
@@ -12,6 +12,7 @@ import objectRepository.LoginPage;
 
 /**
  * @author kowshic
+ * @version Selenium 3.0
  *
  */
 public class LoginPageApplication {
