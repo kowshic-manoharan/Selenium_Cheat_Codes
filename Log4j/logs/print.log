@@ -1,3 +1,2 @@
-22:03:40.987 [main] INFO  packageA.Demo - Successfully switched to frame
-22:03:40.995 [main] DEBUG packageA.Demo - Identifying Draggable objects
-22:03:41.430 [main] INFO  packageA.Demo - Drag and drop success
+19:56:09.022 [main] DEBUG packageA.sampleRealExanple - Identifying Draggable objects
+19:56:09.349 [main] INFO  packageA.sampleRealExanple - Drag and drop success

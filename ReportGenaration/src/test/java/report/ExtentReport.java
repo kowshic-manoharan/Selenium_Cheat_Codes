@@ -12,7 +12,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class ExternReport {
+public class ExtentReport {
 	ExtentReports extent;
 
 	@BeforeTest
@@ -25,7 +25,7 @@ public class ExternReport {
 		reporter.config().setDocumentTitle("Test Results");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
-		extent.setSystemInfo("Tester", "Rahul Shetty");
+		extent.setSystemInfo("Tester", "Kowshic");
 	}
 
 	@Test

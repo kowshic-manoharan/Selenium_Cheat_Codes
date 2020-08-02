@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-02T15:58:30Z" name="Suite" finished-at="2020-08-02T15:58:46Z" duration-ms="16164">
+    <groups>
+    </groups>
+    <test started-at="2020-08-02T15:58:30Z" name="HomePage" finished-at="2020-08-02T15:58:43Z" duration-ms="12771">
+      <class name="testPackage.HomePage">
+        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.HomePage@554e218]" started-at="2020-08-02T15:58:30Z" name="intialSetup" finished-at="2020-08-02T15:58:41Z" duration-ms="11339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialSetup -->
+        <test-method signature="basepageNavigation()[pri:0, instance:testPackage.HomePage@554e218]" started-at="2020-08-02T15:58:41Z" name="basepageNavigation" finished-at="2020-08-02T15:58:41Z" duration-ms="116" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<FEATURED COURSES> but was:<FEATURED COURSESs>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<FEATURED COURSES> but was:<FEATURED COURSESs>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at testPackage.HomePage.basepageNavigation(HomePage.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.HomePage@554e218]" started-at="2020-08-02T15:58:42Z" name="tearDown" finished-at="2020-08-02T15:58:43Z" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2020-08-02T15:58:30Z" name="LoginPage" finished-at="2020-08-02T15:58:46Z" duration-ms="16164">
+      <class name="testPackage.LoginPage">
+        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:30Z" name="intialSetup" finished-at="2020-08-02T15:58:36Z" duration-ms="6302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialSetup -->
+        <test-method signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:36Z" name="basepageNavigation" data-provider="getData" finished-at="2020-08-02T15:58:44Z" duration-ms="7618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:44Z" name="basepageNavigation" data-provider="getData" finished-at="2020-08-02T15:58:46Z" duration-ms="2153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:46Z" name="tearDown" finished-at="2020-08-02T15:58:46Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.LoginPage -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- Suite -->
+</testng-results>

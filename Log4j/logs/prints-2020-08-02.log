@@ -1,0 +1,7 @@
+19:55:53.206 [main] DEBUG packageA.sampleRealExanple - Setting chrome driver property
+19:55:59.315 [main] INFO  packageA.sampleRealExanple - Window Maximized
+19:55:59.316 [main] DEBUG packageA.sampleRealExanple - Now hitting Amazon server
+19:56:03.861 [main] INFO  packageA.sampleRealExanple - Landed on amazon home page
+19:56:08.980 [main] DEBUG packageA.sampleRealExanple - Getting the frames count
+19:56:09.002 [main] INFO  packageA.sampleRealExanple - Frames count retreived
+19:56:09.021 [main] INFO  packageA.sampleRealExanple - Successfully switched to frame
