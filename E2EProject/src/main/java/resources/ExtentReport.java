@@ -10,11 +10,11 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
  * @author kowshic
  *
  */
-public class ExternReport {
+public class ExtentReport {
 
-	ExtentReports extent;
+	public static ExtentReports extent;
 
-	public ExtentReports getReportObject() {
+	public static ExtentReports getReportObject() {
 
 		String path = System.getProperty("user.dir") + "\\reports\\index.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);

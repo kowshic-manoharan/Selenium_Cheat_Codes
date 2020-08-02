@@ -1,6 +1,6 @@
-21:25:13.331 [TestNG-tests-2] INFO  testPackage.LoginPage - Navigated to login page
-21:25:15.598 [TestNG-tests-2] INFO  testPackage.LoginPage - Navigated to login page
-21:28:36.516 [TestNG-tests-1] INFO  testPackage.HomePage - Chrome Driver Initialized
-21:28:36.613 [TestNG-tests-2] INFO  testPackage.LoginPage - Chrome Driver Initialized
-21:28:44.006 [TestNG-tests-2] INFO  testPackage.LoginPage - Navigated to login page
-21:28:46.234 [TestNG-tests-2] INFO  testPackage.LoginPage - Navigated to login page
+22:25:15.549 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:25:17.836 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:41:29.769 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
+22:41:40.943 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
+22:41:46.144 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:41:48.553 [main] INFO  testPackage.LoginPage - Navigated to login page

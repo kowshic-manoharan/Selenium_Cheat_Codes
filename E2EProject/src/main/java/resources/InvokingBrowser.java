@@ -44,11 +44,12 @@ public class InvokingBrowser {
 		return driver;
 	}
 	
-	public void getScreenShotPath(String testcaseName,WebDriver driver) throws IOException {
+	public String getScreenShotPath(String testcaseName,WebDriver driver) throws IOException {
 		TakesScreenshot scrShot =((TakesScreenshot)driver);
 		File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
 		String destinationFile = System.getProperty("user.dir")+"\\reports\\"+testcaseName+".png";
 		FileUtils.copyFile(SrcFile,new File(destinationFile));
+		return destinationFile;
 	}
 	
 }

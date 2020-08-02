@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-02T15:58:30Z" name="Suite" finished-at="2020-08-02T15:58:46Z" duration-ms="16164">
+  <suite started-at="2020-08-02T17:11:23Z" name="Suite" finished-at="2020-08-02T17:11:48Z" duration-ms="25130">
     <groups>
     </groups>
-    <test started-at="2020-08-02T15:58:30Z" name="HomePage" finished-at="2020-08-02T15:58:43Z" duration-ms="12771">
+    <test started-at="2020-08-02T17:11:23Z" name="HomePage" finished-at="2020-08-02T17:11:34Z" duration-ms="11091">
       <class name="testPackage.HomePage">
-        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.HomePage@554e218]" started-at="2020-08-02T15:58:30Z" name="intialSetup" finished-at="2020-08-02T15:58:41Z" duration-ms="11339" status="PASS">
+        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.HomePage@47605f2f]" started-at="2020-08-02T17:11:23Z" name="intialSetup" finished-at="2020-08-02T17:11:33Z" duration-ms="10114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialSetup -->
-        <test-method signature="basepageNavigation()[pri:0, instance:testPackage.HomePage@554e218]" started-at="2020-08-02T15:58:41Z" name="basepageNavigation" finished-at="2020-08-02T15:58:41Z" duration-ms="116" status="FAIL">
+        <test-method signature="basepageNavigation()[pri:0, instance:testPackage.HomePage@47605f2f]" started-at="2020-08-02T17:11:33Z" name="basepageNavigation" finished-at="2020-08-02T17:11:34Z" duration-ms="84" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<FEATURED COURSES> but was:<FEATURED COURSESs>]]>
@@ -34,32 +34,37 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:835)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.HomePage@554e218]" started-at="2020-08-02T15:58:42Z" name="tearDown" finished-at="2020-08-02T15:58:43Z" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.HomePage@47605f2f]" started-at="2020-08-02T17:11:34Z" name="tearDown" finished-at="2020-08-02T17:11:34Z" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testPackage.HomePage -->
     </test> <!-- HomePage -->
-    <test started-at="2020-08-02T15:58:30Z" name="LoginPage" finished-at="2020-08-02T15:58:46Z" duration-ms="16164">
+    <test started-at="2020-08-02T17:11:35Z" name="LoginPage" finished-at="2020-08-02T17:11:48Z" duration-ms="13560">
       <class name="testPackage.LoginPage">
-        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:30Z" name="intialSetup" finished-at="2020-08-02T15:58:36Z" duration-ms="6302" status="PASS">
+        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:35Z" name="intialSetup" finished-at="2020-08-02T17:11:40Z" duration-ms="5554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialSetup -->
-        <test-method signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:36Z" name="basepageNavigation" data-provider="getData" finished-at="2020-08-02T15:58:44Z" duration-ms="7618" status="PASS">
+        <test-method signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:40Z" name="loginPageNavigation" data-provider="getData" finished-at="2020-08-02T17:11:46Z" duration-ms="5434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,8 +79,8 @@ at java.base/java.lang.Thread.run(Thread.java:835)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepageNavigation -->
-        <test-method signature="basepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:44Z" name="basepageNavigation" data-provider="getData" finished-at="2020-08-02T15:58:46Z" duration-ms="2153" status="PASS">
+        </test-method> <!-- loginPageNavigation -->
+        <test-method signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:46Z" name="loginPageNavigation" data-provider="getData" finished-at="2020-08-02T17:11:48Z" duration-ms="2384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,8 +95,8 @@ at java.base/java.lang.Thread.run(Thread.java:835)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.LoginPage@7f132176]" started-at="2020-08-02T15:58:46Z" name="tearDown" finished-at="2020-08-02T15:58:46Z" duration-ms="60" status="PASS">
+        </test-method> <!-- loginPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:48Z" name="tearDown" finished-at="2020-08-02T17:11:48Z" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

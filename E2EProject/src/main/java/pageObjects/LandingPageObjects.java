@@ -23,7 +23,7 @@ public class LandingPageObjects {
 	}
 	
 	@FindBy(xpath="//span[contains(text(),'Login')]")
-	WebElement loginPage;
+	WebElement getLogin;
 	
 	@FindBy(xpath = "//h2[contains(text(),'Featured Courses')]")
 	WebElement displayingText;
@@ -31,8 +31,10 @@ public class LandingPageObjects {
 	@FindBy(xpath = "//ul[@class='nav navbar-nav navbar-right']")
 	WebElement navigationTabs;
 	
-	public WebElement loginPage() {
-		return loginPage;
+	public LoginPageObjects getLogin() {
+		getLogin.click();
+		LoginPageObjects login = new LoginPageObjects(driver);
+		return login;
 	}
 	
 	public WebElement getText() {

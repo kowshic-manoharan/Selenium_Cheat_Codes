@@ -116,12 +116,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testPackage.LoginPage" class="method navigator-link" hash-for-method="basepageNavigation(User1, user1pass)">basepageNavigation(User1, user1pass)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testPackage.LoginPage" class="method navigator-link" hash-for-method="loginPageNavigation(User2, user2pass)">loginPageNavigation(User2, user2pass)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testPackage.LoginPage" class="method navigator-link" hash-for-method="basepageNavigation(User2, user2pass)">basepageNavigation(User2, user2pass)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testPackage.LoginPage" class="method navigator-link" hash-for-method="loginPageNavigation(User1, user1pass)">loginPageNavigation(User1, user1pass)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -149,11 +149,7 @@
                   <span class="method-name">basepageNavigation</span>
                   <div class="stack-trace">java.lang.AssertionError: expected:&lt;FEATURED COURSES&gt; but was:&lt;FEATURED COURSESs&gt;
 	at testPackage.HomePage.basepageNavigation(HomePage.java:40)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:835)
-... Removed 18 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -167,18 +163,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basepageNavigation(User1, user1pass)">
-                  </a> <!-- basepageNavigation(User1, user1pass) -->
-                  <span class="method-name">basepageNavigation</span>
-                  <span class="parameters">(User1, user1pass)</span>
+                  <a name="loginPageNavigation(User2, user2pass)">
+                  </a> <!-- loginPageNavigation(User2, user2pass) -->
+                  <span class="method-name">loginPageNavigation</span>
+                  <span class="parameters">(User2, user2pass)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="basepageNavigation(User2, user2pass)">
-                  </a> <!-- basepageNavigation(User2, user2pass) -->
-                  <span class="method-name">basepageNavigation</span>
-                  <span class="parameters">(User2, user2pass)</span>
+                  <a name="loginPageNavigation(User1, user1pass)">
+                  </a> <!-- loginPageNavigation(User1, user1pass) -->
+                  <span class="method-name">loginPageNavigation</span>
+                  <span class="parameters">(User1, user1pass)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,16 +188,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;testPackage.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;HomePage&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testPackage.HomePage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- HomePage --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;LoginPage&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginPage&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testPackage.LoginPage&quot;/&gt;
     &lt;/classes&gt;
@@ -248,22 +244,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'basepageNavigation')
+data.setCell(0, 1, 'loginPageNavigation')
 data.setCell(0, 2, 'testPackage.LoginPage')
-data.setCell(0, 3, 7618);
+data.setCell(0, 3, 5434);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'basepageNavigation')
+data.setCell(1, 1, 'loginPageNavigation')
 data.setCell(1, 2, 'testPackage.LoginPage')
-data.setCell(1, 3, 2153);
+data.setCell(1, 3, 2384);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'basepageNavigation')
 data.setCell(2, 2, 'testPackage.HomePage')
-data.setCell(2, 3, 116);
+data.setCell(2, 3, 84);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -289,48 +285,39 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testPackage.LoginPage</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">intialSetup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testPackage.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">intialSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testPackage.LoginPage</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">basepageNavigation(User1, user1pass)</span>
-                <span class="method-start">6323 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testPackage.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">basepageNavigation</span>
-                <span class="method-start">11340 ms</span>
+                <span class="method-start">10126 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12325 ms</span>
+                <span class="method-start">10977 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testPackage.LoginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">intialSetup</span>
+                <span class="method-start">11571 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">basepageNavigation(User2, user2pass)</span>
-                <span class="method-start">13942 ms</span>
+                <span class="method-name">loginPageNavigation(User1, user1pass)</span>
+                <span class="method-start">17133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageNavigation(User2, user2pass)</span>
+                <span class="method-start">22567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16096 ms</span>
+                <span class="method-start">24955 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

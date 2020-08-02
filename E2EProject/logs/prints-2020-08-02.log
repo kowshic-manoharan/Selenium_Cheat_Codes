@@ -1,7 +1,7 @@
-20:13:26.735 [TestNG-tests-2] INFO  testPackage.LoginPage - Chrome Driver Initialized
-20:13:31.631 [TestNG-tests-1] INFO  testPackage.HomePage - Text is present
-20:13:31.726 [TestNG-tests-1] INFO  testPackage.HomePage - Navigation bar is displayed
-20:13:32.976 [TestNG-tests-2] INFO  testPackage.LoginPage - Navigated to login page
-20:13:35.066 [TestNG-tests-2] INFO  testPackage.LoginPage - Navigated to login page
-21:25:06.511 [TestNG-tests-1] INFO  testPackage.HomePage - Chrome Driver Initialized
-21:25:06.510 [TestNG-tests-2] INFO  testPackage.LoginPage - Chrome Driver Initialized
+22:18:58.457 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:21:52.944 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
+22:22:05.697 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
+22:22:11.996 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:22:14.175 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:25:01.382 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
+22:25:11.574 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized

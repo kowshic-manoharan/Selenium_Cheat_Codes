@@ -33,12 +33,11 @@ public class LoginPage extends InvokingBrowser {
 	}
 
 	@Test(dataProvider = "getData")
-	public void basepageNavigation(String userName, String password) throws IOException {
+	public void loginPageNavigation(String userName, String password) throws IOException {
 		driver.get(prop.getProperty("url"));
 		LandingPageObjects lp = new LandingPageObjects(driver);
-		lp.loginPage().click();
+		LoginPageObjects login = lp.getLogin();
 		log.info("Navigated to login page");
-		LoginPageObjects login = new LoginPageObjects(driver);
 		login.getemail().sendKeys(userName);
 		login.getpassword().sendKeys(password);
 	}
