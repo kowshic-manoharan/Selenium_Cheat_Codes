@@ -1,7 +1,7 @@
-22:18:58.457 [main] INFO  testPackage.LoginPage - Navigated to login page
-22:21:52.944 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
-22:22:05.697 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
-22:22:11.996 [main] INFO  testPackage.LoginPage - Navigated to login page
-22:22:14.175 [main] INFO  testPackage.LoginPage - Navigated to login page
-22:25:01.382 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
-22:25:11.574 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
+22:25:15.549 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:25:17.836 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:41:29.769 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
+22:41:40.943 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
+22:41:46.144 [main] INFO  testPackage.LoginPage - Navigated to login page
+22:41:48.553 [main] INFO  testPackage.LoginPage - Navigated to login page
+23:20:31.144 [main] INFO  testPackage.HomePage - Chrome Driver Initialized

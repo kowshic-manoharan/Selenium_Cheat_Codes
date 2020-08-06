@@ -35,10 +35,17 @@ public class HomePage extends InvokingBrowser {
 	}
 
 	@Test
-	public void basepageNavigation(){
+	public void displayText(){
 		LandingPageObjects lp = new LandingPageObjects(driver);
 		AssertJUnit.assertEquals(lp.getText().getText(), "FEATURED COURSESs");
 		log.info("Text is present");
+		AssertJUnit.assertTrue(lp.getTabs().isDisplayed());
+		log.info("Navigation bar is displayed");
+	}
+	
+	@Test
+	public void navigationBarCheck(){
+		LandingPageObjects lp = new LandingPageObjects(driver);
 		AssertJUnit.assertTrue(lp.getTabs().isDisplayed());
 		log.info("Navigation bar is displayed");
 	}

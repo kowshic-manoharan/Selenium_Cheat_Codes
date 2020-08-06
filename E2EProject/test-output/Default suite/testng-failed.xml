@@ -5,7 +5,9 @@
     <classes>
       <class name="testPackage.HomePage">
         <methods>
-          <include name="basepageNavigation"/>
+          <include name="displayText"/>
+          <include name="tearDown"/>
+          <include name="intialSetup"/>
         </methods>
       </class> <!-- testPackage.HomePage -->
     </classes>

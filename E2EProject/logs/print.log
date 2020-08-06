@@ -1,6 +1,4 @@
-22:25:15.549 [main] INFO  testPackage.LoginPage - Navigated to login page
-22:25:17.836 [main] INFO  testPackage.LoginPage - Navigated to login page
-22:41:29.769 [main] INFO  testPackage.HomePage - Chrome Driver Initialized
-22:41:40.943 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
-22:41:46.144 [main] INFO  testPackage.LoginPage - Navigated to login page
-22:41:48.553 [main] INFO  testPackage.LoginPage - Navigated to login page
+11:24:28.015 [main] INFO  testPackage.HomePage - Navigation bar is displayed
+11:24:33.736 [main] INFO  testPackage.LoginPage - Chrome Driver Initialized
+11:24:38.521 [main] INFO  testPackage.LoginPage - Navigated to login page
+11:24:40.299 [main] INFO  testPackage.LoginPage - Navigated to login page

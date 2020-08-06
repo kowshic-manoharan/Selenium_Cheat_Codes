@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-02T17:11:23Z" name="Suite" finished-at="2020-08-02T17:11:48Z" duration-ms="25130">
+  <suite started-at="2020-08-03T05:09:54Z" name="Default suite" finished-at="2020-08-03T05:10:06Z" duration-ms="11980">
     <groups>
     </groups>
-    <test started-at="2020-08-02T17:11:23Z" name="HomePage" finished-at="2020-08-02T17:11:34Z" duration-ms="11091">
+    <test started-at="2020-08-03T05:09:54Z" name="Default test" finished-at="2020-08-03T05:10:06Z" duration-ms="11980">
       <class name="testPackage.HomePage">
-        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.HomePage@47605f2f]" started-at="2020-08-02T17:11:23Z" name="intialSetup" finished-at="2020-08-02T17:11:33Z" duration-ms="10114" status="PASS">
+        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.HomePage@6f63b475]" started-at="2020-08-03T05:09:54Z" name="intialSetup" finished-at="2020-08-03T05:10:06Z" duration-ms="11552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialSetup -->
-        <test-method signature="basepageNavigation()[pri:0, instance:testPackage.HomePage@47605f2f]" started-at="2020-08-02T17:11:33Z" name="basepageNavigation" finished-at="2020-08-02T17:11:34Z" duration-ms="84" status="FAIL">
+        <test-method signature="displayText()[pri:0, instance:testPackage.HomePage@6f63b475]" started-at="2020-08-03T05:10:06Z" name="displayText" finished-at="2020-08-03T05:10:06Z" duration-ms="61" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<FEATURED COURSES> but was:<FEATURED COURSESs>]]>
@@ -20,7 +20,7 @@
               <![CDATA[java.lang.AssertionError: expected:<FEATURED COURSES> but was:<FEATURED COURSESs>
 at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
 at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-at testPackage.HomePage.basepageNavigation(HomePage.java:40)
+at testPackage.HomePage.displayText(HomePage.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,56 +51,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basepageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.HomePage@47605f2f]" started-at="2020-08-02T17:11:34Z" name="tearDown" finished-at="2020-08-02T17:11:34Z" duration-ms="111" status="PASS">
+        </test-method> <!-- displayText -->
+        <test-method signature="navigationBarCheck()[pri:0, instance:testPackage.HomePage@6f63b475]" started-at="2020-08-03T05:10:06Z" name="navigationBarCheck" finished-at="2020-08-03T05:10:06Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.HomePage@6f63b475]" started-at="2020-08-03T05:10:06Z" name="tearDown" finished-at="2020-08-03T05:10:06Z" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testPackage.HomePage -->
-    </test> <!-- HomePage -->
-    <test started-at="2020-08-02T17:11:35Z" name="LoginPage" finished-at="2020-08-02T17:11:48Z" duration-ms="13560">
-      <class name="testPackage.LoginPage">
-        <test-method is-config="true" signature="intialSetup()[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:35Z" name="intialSetup" finished-at="2020-08-02T17:11:40Z" duration-ms="5554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intialSetup -->
-        <test-method signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:40Z" name="loginPageNavigation" data-provider="getData" finished-at="2020-08-02T17:11:46Z" duration-ms="5434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user1pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageNavigation -->
-        <test-method signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:46Z" name="loginPageNavigation" data-provider="getData" finished-at="2020-08-02T17:11:48Z" duration-ms="2384" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user2pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.LoginPage@1623134f]" started-at="2020-08-02T17:11:48Z" name="tearDown" finished-at="2020-08-02T17:11:48Z" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testPackage.LoginPage -->
-    </test> <!-- LoginPage -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
