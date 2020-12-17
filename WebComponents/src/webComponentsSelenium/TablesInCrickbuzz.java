@@ -29,7 +29,7 @@ public class TablesInCrickbuzz {
 
 		// Launch the website
 		driver.get(
-				"\"http://www.cricbuzz.com/live-cricket-scorecard/18970/pak-vs-sl-2nd-t20i-pakistan-v-sri-lanka-in-uae-2017\"");
+				"http://www.cricbuzz.com/live-cricket-scorecard/18970/pak-vs-sl-2nd-t20i-pakistan-v-sri-lanka-in-uae-2017\"");
 		
 		int sum = 0;
 

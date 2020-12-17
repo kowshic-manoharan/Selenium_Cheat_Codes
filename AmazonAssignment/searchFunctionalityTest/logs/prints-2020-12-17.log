@@ -1,0 +1,5 @@
+19:54:34.631 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - Currently in the Amazon page
+19:54:34.638 [main] DEBUG Amazon.searchFunctionalityTest.BookSearchTest - I have clicked on the dropdown
+19:54:35.044 [main] DEBUG Amazon.searchFunctionalityTest.BookSearchTest - I have clicked on the books from the dropdown
+19:54:35.132 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - Book is clicked in the dropdown
+19:54:35.139 [main] DEBUG Amazon.searchFunctionalityTest.BookSearchTest - I have clicked on the books from the dropdown

@@ -40,7 +40,7 @@ public class TablesInWeb {
 				"//body/div[@id='__next']/section[@id='pane-main']/section[@id='main-container']/div/div/div/div/div/div[2]/div[1]/div[1]/div[1]"));
 
 		int score = tableValue.findElements(By.cssSelector("tbody td[class='font-weight-bold']")).size();
-
+		
 		for (int i = 0; i < score; i++) {
 			System.out.println(
 					tableValue.findElements(By.cssSelector("tbody td[class='font-weight-bold']")).get(i).getText());

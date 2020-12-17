@@ -1,0 +1,5 @@
+19:54:37.828 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - Data catalog is entered in the serch box
+19:54:38.263 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - Data catalog both details opened in new tab
+19:54:40.611 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - Getting the details of book in paperback
+19:54:40.896 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - I am clicking on the kindle
+19:54:43.195 [main] INFO  Amazon.searchFunctionalityTest.BookSearchTest - Getting the details of book in kindle

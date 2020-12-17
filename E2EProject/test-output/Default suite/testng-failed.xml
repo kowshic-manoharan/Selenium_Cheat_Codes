@@ -8,6 +8,7 @@
           <include name="displayText"/>
           <include name="tearDown"/>
           <include name="intialSetup"/>
+          <include name="navigationBarCheck"/>
         </methods>
       </class> <!-- testPackage.HomePage -->
     </classes>

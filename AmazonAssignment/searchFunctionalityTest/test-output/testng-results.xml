@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-17T16:44:42Z" name="Suite" finished-at="2020-12-17T16:45:09Z" duration-ms="27444">
+    <groups>
+    </groups>
+    <test started-at="2020-12-17T16:44:42Z" name="Test" finished-at="2020-12-17T16:45:09Z" duration-ms="27444">
+      <class name="Amazon.searchFunctionalityTest.BookSearchTest">
+        <test-method is-config="true" signature="intialSetup()[pri:0, instance:Amazon.searchFunctionalityTest.BookSearchTest@3d484181]" started-at="2020-12-17T16:44:42Z" name="intialSetup" finished-at="2020-12-17T16:44:58Z" duration-ms="16459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialSetup -->
+        <test-method signature="clickDropDownAndSelectBooks()[pri:0, instance:Amazon.searchFunctionalityTest.BookSearchTest@3d484181]" started-at="2020-12-17T16:44:58Z" name="clickDropDownAndSelectBooks" finished-at="2020-12-17T16:44:59Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDropDownAndSelectBooks -->
+        <test-method signature="enterDataCatalogInSearch()[pri:0, instance:Amazon.searchFunctionalityTest.BookSearchTest@3d484181]" started-at="2020-12-17T16:44:59Z" name="enterDataCatalogInSearch" finished-at="2020-12-17T16:45:06Z" duration-ms="7353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDataCatalogInSearch -->
+        <test-method signature="readAndPrintDetails()[pri:0, instance:Amazon.searchFunctionalityTest.BookSearchTest@3d484181]" started-at="2020-12-17T16:45:06Z" name="readAndPrintDetails" finished-at="2020-12-17T16:45:08Z" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readAndPrintDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Amazon.searchFunctionalityTest.BookSearchTest@3d484181]" started-at="2020-12-17T16:45:08Z" name="tearDown" finished-at="2020-12-17T16:45:09Z" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Amazon.searchFunctionalityTest.BookSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

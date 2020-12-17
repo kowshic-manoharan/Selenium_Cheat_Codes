@@ -51,7 +51,7 @@ public class AutoSuggestive {
 		System.out.println(text);
 		int i = 0;
 		// BENGALURU INTERNATION AIPORT
-		while (!text.equalsIgnoreCase("BENGALURU INTATION AIPORT")) {
+		while (!text.equalsIgnoreCase("BENGALURU AIRPORT")) {
 			i++;
 			driver.findElement(By.xpath("//input[@id='fromPlaceName']")).sendKeys(Keys.DOWN);
 
